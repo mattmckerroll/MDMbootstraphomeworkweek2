@@ -7,9 +7,21 @@ h2 {
 
 }
 
-img{
+#aboutMeImg {
     float: left;
 
     width: 200px;
     height: 200px;
+    margin-right: 10px;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+  }
+  
