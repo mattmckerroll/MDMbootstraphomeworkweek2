@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <title>Matthew Mckerroll About Me</title>
+
+    <!-- bootstrap css link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-
+    <!-- viewport code -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- local stylesheet for style of text and images -->
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
@@ -13,15 +17,15 @@
 
       <!-- NAV BAR -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h1 class="p-3 mb-2 bg-primary text-white"><span>About Me</span></h1>
-        <!-- <a class="navbar-brand" href="#">About Me</a> -->
+        <h1 >Matthew Mckerroll</h1>
+   
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">About</a>
+              <a class="nav-link" href="index.html">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
@@ -33,7 +37,34 @@
         </div>
       </nav>
 
-      
+      <!-- main content placed into a card -->
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Contact</h2>
+              <form>
+                <div class="form-group">
+                  <label for="nameinput">Name</label>
+                  <input type="email" class="form-control" id="nameinput" aria-describedby="name" placeholder="Enter Your Name">
+                   
+                </div>
+                <div class="form-group">
+                  <label for="emailinput">Email address</label>
+                  <input type="password" class="form-control" id="emailinput" placeholder="Enter your Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="messageArea">Message</label>
+                    <textarea class="form-control" id="messageArea" placeholder="Write a message if you like" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+                           
+            </div>
+          </div>
+        </div>      
 
 
 
