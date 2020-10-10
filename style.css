@@ -1,8 +1,15 @@
 h1{
     color: white;
     background-color: teal;
-}
+} 
 
 h2 {
 
+}
+
+img{
+    float: left;
+
+    width: 200px;
+    height: 200px;
 }
