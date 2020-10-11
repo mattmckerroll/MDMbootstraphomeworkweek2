@@ -1,3 +1,5 @@
+
+/* styles for the main header and sub heading are here */
 h1{
     color: white;
     background-color: teal;
@@ -8,6 +10,7 @@ h2 {
     font-weight: bold;
 }
 
+/*styling for the image on the about me page*/
 #aboutMeImg {
     float: left;
     
@@ -16,6 +19,7 @@ h2 {
     margin-right: 10px;
 }
 
+/*styling for the images on the portfolio page*/
 #portfolioImgLeft{
     float: left;
     width: 200px;
@@ -32,6 +36,7 @@ h2 {
 
 }
 
+/*styling for the sticky footer*/
 footer {
     position: fixed;
     left: 0;
@@ -41,6 +46,9 @@ footer {
     color: white;
     text-align: center;
   }
+
+
+  /*background color to give the site a bit of depth*/
   
 body{
     background-color: burlywood;
