@@ -19,7 +19,7 @@ The site has 3 separate pages: About Me, Portfolio, and Contact
 Currently the contact page is for viewing only, but there are plans to add proper form submission eventually!
 
 ## Screenshot
-[Image of site](./images/screenshotofSite)
+[Image of site](./images/screenshotOfSite.jpg)
 
 ## Installation
 
